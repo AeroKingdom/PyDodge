@@ -3,7 +3,7 @@
 #
 
 proxy:
-    coll: course
+    coll: ;
     ca_name: pywb HTTPS Proxy CA
     ca_file_cache: ./proxy-certs/pywb-ca.pem
     recording: false
