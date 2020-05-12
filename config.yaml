@@ -12,7 +12,7 @@ proxy:
     default_timestamp: ''
 
 collections:
-    course: $live
+    ;: $live
     all: $all
     pywb:
         index_paths: ./sample_archive/cdx/
