@@ -205,7 +205,7 @@ class SchemeOnlyUrlRewriter(IdentityUrlRewriter):
         super(SchemeOnlyUrlRewriter, self).__init__(*args, **kwargs)
         self.url_scheme = self.wburl.url.split(':')[0]
         if self.url_scheme == 'https':
-            self.opposite_scheme = 'http'
+            self.opposite_scheme = 'https'
         else:
             self.opposite_scheme = 'https'
 
